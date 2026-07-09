@@ -7,6 +7,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         katering: resolve(__dirname, 'demo/katering/index.html'),
+        klinikGigi: resolve(__dirname, 'demo/klinik-gigi/index.html'),
+        bengkelMotor: resolve(__dirname, 'demo/bengkel-motor/index.html'),
       },
     },
   },
