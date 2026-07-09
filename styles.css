@@ -401,6 +401,13 @@ h3 {
   letter-spacing: .12em;
 }
 
+.work-link {
+  display: inline-flex;
+  margin-top: 12px;
+  color: var(--brand);
+  font-weight: 800;
+}
+
 .price-card {
   position: relative;
 }
