@@ -9,6 +9,9 @@
     "build": "vite build --outDir dist"
   },
   "devDependencies": {
-    "vite": "^7.0.0"
-  }
+    "@cloudflare/vite-plugin": "^1.43.1",
+    "vite": "^7.0.0",
+    "wrangler": "^4.107.1"
+  },
+  "type": "module"
 }
