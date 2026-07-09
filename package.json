@@ -1,0 +1,14 @@
+{
+  "name": "infiraft-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Official landing page for Infiraft.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "preview": "vite preview --host 127.0.0.1",
+    "build": "vite build --outDir dist"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
