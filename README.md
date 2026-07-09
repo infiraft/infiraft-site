@@ -15,7 +15,11 @@ npm run dev
 npm run build
 ```
 
-The static output will be generated in `dist/`.
+The static output will be generated in `dist`.
+
+## Sales assets
+
+- `docs/infiraft-sales-outreach-kit.md` — paket awal, target niche, template chat WA/IG, follow-up, dan rutinitas harian untuk cari klien pertama.
 
 ## Deploy notes
 
