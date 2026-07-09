@@ -486,6 +486,13 @@ h3 {
 @media (max-width: 520px) {
   .section-pad { padding: 54px 0; }
 
+  .site-shell { width: min(100% - 40px, 680px); }
+
+  .cta-section {
+    padding: 42px 22px;
+    border-radius: 34px;
+  }
+
   h1 { font-size: 48px; }
 
   .brand span:last-child { display: none; }
