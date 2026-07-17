@@ -9,6 +9,7 @@ export default defineConfig({
         katering: resolve(__dirname, 'demo/katering/index.html'),
         klinikGigi: resolve(__dirname, 'demo/klinik-gigi/index.html'),
         bengkelMotor: resolve(__dirname, 'demo/bengkel-motor/index.html'),
+        laundry: resolve(__dirname, 'demo/laundry/index.html'),
       },
     },
   },
