@@ -10,6 +10,8 @@ export default defineConfig({
         klinikGigi: resolve(__dirname, 'demo/klinik-gigi/index.html'),
         bengkelMotor: resolve(__dirname, 'demo/bengkel-motor/index.html'),
         laundry: resolve(__dirname, 'demo/laundry/index.html'),
+        bimbel: resolve(__dirname, 'demo/bimbel/index.html'),
+        weddingPlanner: resolve(__dirname, 'demo/wedding-planner/index.html'),
       },
     },
   },
