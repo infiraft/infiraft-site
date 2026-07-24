@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+.skip-link { position: absolute; left: 16px; top: -64px; z-index: 100; padding: 12px 16px; border-radius: 10px; color: #07111f; background: #f8fafc; font-weight: 800; box-shadow: 0 8px 24px rgba(0,0,0,.28); }
+.skip-link:focus-visible { top: 16px; }
+:focus-visible { outline: 3px solid #fbbf24; outline-offset: 3px; }
+
 .site-shell {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
