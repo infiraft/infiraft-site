@@ -11,5 +11,8 @@
   "devDependencies": {
     "vite": "^7.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "three": "^0.185.1"
+  }
 }

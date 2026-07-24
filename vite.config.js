@@ -3,6 +3,9 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   build: {
+    // Three.js is a desktop-only lazy chunk (about 129 kB gzip). The higher
+    // threshold prevents a misleading warning based on its uncompressed size.
+    chunkSizeWarningLimit: 550,
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
