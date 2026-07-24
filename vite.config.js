@@ -12,6 +12,7 @@ export default defineConfig({
         laundry: resolve(__dirname, 'demo/laundry/index.html'),
         bimbel: resolve(__dirname, 'demo/bimbel/index.html'),
         weddingPlanner: resolve(__dirname, 'demo/wedding-planner/index.html'),
+        kosKosan: resolve(__dirname, 'demo/kos-kosan/index.html'),
       },
     },
   },
